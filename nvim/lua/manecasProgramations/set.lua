@@ -12,7 +12,6 @@ vim.opt.shiftwidth = 4
 vim.opt.expandtab = true
 
 vim.opt.smartindent = true
-
 vim.opt.wrap = false
 
 vim.opt.swapfile = false
@@ -26,9 +25,9 @@ vim.opt.incsearch = true
 vim.opt.termguicolors = true
 
 vim.opt.scrolloff = 8
-vim.opt.signcolumn = "no"
+vim.opt.signcolumn = "yes"
 vim.opt.isfname:append("@-@")
-
+opt.smoothscroll = true
 vim.opt.updatetime = 50
 
 vim.opt.colorcolumn = ""
